@@ -19,7 +19,6 @@ const RootLayout = () => {
           name="index"
           options={{
             title:"Home", 
-            headerShown: false,
             tabBarIcon: ({ color }) => (
               <AntDesign name="home" size={24} color={color} />
             ) 
@@ -29,7 +28,6 @@ const RootLayout = () => {
           name="add"
           options={{
             title:"Add", 
-            headerShown: false,
             tabBarIcon: ({ color }) => (
               <AntDesign name="plus" size={24} color={color} />
             ) 
@@ -39,7 +37,6 @@ const RootLayout = () => {
           name="settings"
           options={{
             title:"Settings", 
-            headerShown: false,
             tabBarIcon: ({ color }) => (
               <AntDesign name="setting" size={24} color="black" />
             ) 
